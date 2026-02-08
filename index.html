@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aura Coffee</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+
+  <div class="overlay"></div>
+
+  <nav>
+    <div class="left">
+      <a href="#menu">Меню</a>
+      <a href="#about">О нас</a>
+      <a href="#contacts">Контакты</a>
+    </div>
+
+    <div class="right">
+      <a href="#">
+        <img src="images/insta.png">
+      </a>
+      <a href="#">
+        <img src="images/tiktok.png">
+      </a>
+      <a href="#">
+        <img src="images/whatsapp.png">
+      </a>
+      <a href="#">
+        <img src="images/2gis.png">
+      </a>
+    </div>
+  </nav>
+
+  <div class="center">
+    <h1>aura</h1>
+    <p>coffee & snacks</p>
+  </div>
+
+</header>
+<section id="menu">
+
+<h2>Наше меню</h2>
+
+<div class="menu-buttons">
+<button onclick="showMenu('drinks')" class="active">Напитки</button>
+<button onclick="showMenu('breakfast')">Завтраки</button>
+<button onclick="showMenu('desserts')">Десерты</button>
+</div>
+
+<div class="menu-content drinks active">
+<div class="menu-grid">
+
+<div class="item">
+<img src="images/img1.jpg">
+<h3>Латте</h3>
+<p>2100 тг</p>
+</div>
+
+<div class="item">
+<img src="images/img2.jpg">
+<h3>Лимонад</h3>
+<p>1500 тг</p>
+</div>
+
+<div class="item">
+<img src="images/img3.jpg">
+<h3>Матча</h3>
+<p>2200 тг</p>
+</div>
+
+<div class="item">
+<img src="images/img4.jpg">
+<h3>Клубничный лимонад</h3>
+<p>1700 тг</p>
+</div>
+
+</div>
+</div>
+
+<div class="menu-content breakfast">
+<div class="menu-grid">
+
+<div class="item">
+<img src="images/b1.jpg">
+<h3>Breakfast 1</h3>
+<p>2500 тг</p>
+</div>
+
+<div class="item">
+<img src="images/b2.jpg">
+<h3>Breakfast 2</h3>
+<p>2700 тг</p>
+</div>
+
+<div class="item">
+<img src="images/b3.jpg">
+<h3>Breakfast 3</h3>
+<p>3000 тг</p>
+</div>
+
+<div class="item">
+<img src="images/b4.jpg">
+<h3>Breakfast 4</h3>
+<p>2800 тг</p>
+</div>
+
+</div>
+</div>
+
+<div class="menu-content desserts">
+<div class="menu-grid">
+
+<div class="item">
+<img src="images/d1.jpg">
+<h3>desserts 1</h3>
+<p>2200 тг</p>
+</div>
+
+<div class="item">
+<img src="images/d2.jpg">
+<h3>desserts 2</h3>
+<p>1800 тг</p>
+</div>
+
+<div class="item">
+<img src="images/d3.jpg">
+<h3>desserts 3</h3>
+<p>2000 тг</p>
+</div>
+
+<div class="item">
+<img src="images/d4.jpg">
+<h3>desserts 4</h3>
+<p>1700 тг</p>
+</div>
+
+</div>
+</div>
+
+</section>
+
+<section id="about" class="about">
+
+<h2 class="section-title">О нас</h2>
+
+<p class="about-text">
+Мы — уютная кофейня, созданная для тех, кто ценит вкус, атмосферу и моменты тишины среди городского шума.
+Каждый напиток мы готовим с любовью, используя только отборные зёрна и качественные ингредиенты.
+</p>
+
+
+<div class="about-gallery">
+
+<img src="images/bg2.jpg" class="big">
+
+<img src="images/bg3.jpg">
+<img src="images/bg4.jpg">
+
+</div>
+
+<div class="about-cards">
+
+<div class="about-card">
+<div class="icon">♡</div>
+<h4>Сделано с любовью</h4>
+<p>Каждый напиток готовится с особым вниманием к деталям и заботой о качестве</p>
+</div>
+
+<div class="about-card">
+<div class="icon">🏅</div>
+<h4>Премиум качество</h4>
+<p>Используем только лучшие зерна и ингредиенты высочайшего качества</p>
+</div>
+
+<div class="about-card">
+<div class="icon">👥</div>
+<h4>Уютная атмосфера</h4>
+<p>Создаем пространство, где каждый чувствует себя как дома</p>
+</div>
+
+</div>
+</section>
+
+<section class="contacts" id="contacts">
+
+  <iframe
+    src="https://maps.google.com/maps?q=Байтерек&t=&z=15&ie=UTF8&iwloc=&output=embed">
+  </iframe>
+
+</section>
+
+<footer>
+  © 2026 Aura Coffee. Все права защищены.
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
